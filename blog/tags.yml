@@ -1,0 +1,19 @@
+godot:
+  label: 'Godot'
+  permalink: '/godot'
+  description: 'Posts about my learnings with the Godot game engine.'
+
+game:
+  label: 'Game-specific'
+  permalink: '/game-specific'
+  description: 'Posts about specific games I have or am developing.'
+
+announcement:
+  label: 'Announcements'
+  permalink: '/announcements'
+  description: 'Announcement-related posts'
+
+personal:
+  label: 'Personal'
+  permalink: '/personal'
+  description: 'Posts of a more personal nature'
