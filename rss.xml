@@ -19,31 +19,31 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="who-am-i">Who am I?<a href="https://problem-18-dev.github.io/test-blog#who-am-i" class="hash-link" aria-label="Direct link to Who am I?" title="Direct link to Who am I?" translate="no">​</a></h3>
 <p>To start off, here's a quick gist of about me:</p>
 <ul>
-<li class="">I'm 26 years old. (This is easy to know by looking at what year we are!)</li>
+<li class="">I'm 26 years old. (This is easy to know by looking at what year we're in!)</li>
 <li class="">I'm Belgian.</li>
 <li class="">I work as a software engineer by day.</li>
 <li class="">I have essentially no game development experience aside from <strong>very</strong> basic tutorials over years.</li>
 </ul>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-problem-18">What is Problem 18?<a href="https://problem-18-dev.github.io/test-blog#what-is-problem-18" class="hash-link" aria-label="Direct link to What is Problem 18?" title="Direct link to What is Problem 18?" translate="no">​</a></h3>
 <p>Problem 18 is my idea to publicize my journey to learn game development and to transform it into a strong hobby, with the intent to later move on and make a game of my own.</p>
-<p>With my confidence in coding, I knew that I already have an advantage when it comes to creating basic games. I took a few looks through Reddit and other social medias to find out that the <a href="https://20_games_challenge.gitlab.io/" target="_blank" rel="noopener noreferrer" title="Link to the 20 games challenge website" class="">20 games challenge</a> is a popular way of getting started with game development for people who already have got the learning of programming out of the way.</p>
+<p>With my knowledge and experience in coding, starting off with simple games was definitely the right first step. I took a few looks through Reddit and other social medias to find out that the <a href="https://20_games_challenge.gitlab.io/" target="_blank" rel="noopener noreferrer" title="Link to the 20 games challenge website" class="">20 games challenge</a> is a popular way of getting started with game development for people who already have got the learning of programming out of the way.</p>
 <p>So I told myself that if I want to finally make games instead of dreaming about it, this challenge is one hell of a way to start doing so.</p>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-do-it-publicly">Why do it publicly?<a href="https://problem-18-dev.github.io/test-blog#why-do-it-publicly" class="hash-link" aria-label="Direct link to Why do it publicly?" title="Direct link to Why do it publicly?" translate="no">​</a></h4>
-<p>Because I know myself, and I realize that I quickly find loneliness during exploration of new hobbies, skills and interests.</p>
+<p>Because I know myself, and I realize that I quickly feel lonely during exploration of new hobbies, skills and interests.</p>
 <p>Additionally, I would like to earn my place and belong in the game development community, and by keeping my games, my learnings and mistakes honest in public, I hope to do just that.</p>
 <p>I even created a whole brand design, including this header. :-)</p>
 <img src="https://problem-18-dev.github.io/img/games/problem18-banner.jpg" width="100%" alt="Problem 18 banner">
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-18">Why "18"?<a href="https://problem-18-dev.github.io/test-blog#why-18" class="hash-link" aria-label="Direct link to Why &quot;18&quot;?" title="Direct link to Why &quot;18&quot;?" translate="no">​</a></h3>
-<p>To keep myself in some discipline, as well as to keep the show going consistently, I decided that creating a game (and following the challenge) every 18 days would be a reasonable task. The number 18 was chosen for no particular reason other than my guess for how long on aware every game would take, considering I'm starting from zero.</p>
+<p>To keep myself to some discipline, as well as to keep the show going consistently, I decided that creating a game (and following the challenge) every 18 days would be a reasonable task. The number 18 was chosen for no particular reason other than my guess for how long on average every game would take, especially considering that I'm starting from zero.</p>
 <p>I am aware that as I move up, the difficulty and scope of each game increases and we'll step beyond those 18 days sooner or later. Not to mention that I am learning many aspects on the go, and aim to have at the very least basic knowledge and skills in all of them by the time the challenge is done.</p>
 <p>I've definitely got my work cut out for me, but I am not scared of it. In fact, I am so excited to be learning all these new skills, to get my creation out there, even if it just to a few people.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="games">Games<a href="https://problem-18-dev.github.io/test-blog#games" class="hash-link" aria-label="Direct link to Games" title="Direct link to Games" translate="no">​</a></h3>
 <p>The games you can expect will be clones of cult classic games, starting from Flappy Bird, ending with Minecraft. On each game, I plan to add a small twist of my own. Whether that's the theme, some new mechanic or mood. Every game is taken from the 20 games challenge.</p>
 <p>The plan as of today, followed by planned release date:</p>
 <ul>
-<li class="">Flappy Bird (January 18, 2026)</li>
-<li class="">Breakout (February 5, 2026)</li>
-<li class="">Frogger (February 23, 2026)</li>
+<li class=""><a href="https://problem-18.itch.io/tricat" target="_blank" rel="noopener noreferrer" class="">Flappy Bird</a> (January 18, 2026)</li>
+<li class=""><a href="https://problem-18.itch.io/keybricks" target="_blank" rel="noopener noreferrer" class="">Breakout</a> (February 5, 2026)</li>
+<li class=""><a href="https://problem-18.itch.io/i-need-to-go" target="_blank" rel="noopener noreferrer" class="">Frogger</a> (February 23, 2026)</li>
 <li class="">Asteroids (March 13, 2026)</li>
 <li class="">Pac-man (March 31, 2026)</li>
 <li class="">Super Mario Bros (April 18, 2026)</li>
@@ -52,7 +52,7 @@
 <li class="">Doom (June 11, 2026)</li>
 <li class="">Minecraft (June 30, 2026)</li>
 </ul>
-<p>So yeah, lots of work ahead of me. However, as of the day I'm writing this, I am semi-finished with Frogger and it's basically a month before the deadline. The game I'm most proud of right now is Keybricks.</p>
+<p>So yeah, lots of work ahead of me. However, as of the day I'm writing this, I am semi-finished with Frogger and it's basically a month before the deadline. The game I'm most proud of right now is <a href="https://problem-18.itch.io/keybricks" target="_blank" rel="noopener noreferrer" class="">Keybricks</a>.</p>
 <img src="https://problem-18-dev.github.io/img/games/keybricks_logo.png" width="50%" alt="Logo of game keybricks">
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="semi-finished">Semi-finished?<a href="https://problem-18-dev.github.io/test-blog#semi-finished" class="hash-link" aria-label="Direct link to Semi-finished?" title="Direct link to Semi-finished?" translate="no">​</a></h4>
 <p>I'm not too happy with how the game turned out. More about that in a future post.</p>
@@ -72,7 +72,7 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="thank-you">Thank you<a href="https://problem-18-dev.github.io/test-blog#thank-you" class="hash-link" aria-label="Direct link to Thank you" title="Direct link to Thank you" translate="no">​</a></h3>
 <p>So that's more or less what I can tell you about me and Problem 18 so far. I aim to keep these posts coming every second or third week, focusing on what I've learned, what mistakes I made, what obstacles I stumbled upon, and announcing the games, of course.</p>
 <p><strong>If you're also into indie game development, whether you're a player or developer yourself, I would love to connect and learn about your adventures as well. Feel free to reach out on <a href="https://x.com/Problem18Dev" target="_blank" rel="noopener noreferrer" class="">X</a> or <a href="https://bsky.app/profile/problem18dev.bsky.social" target="_blank" rel="noopener noreferrer" class="">Bluesky</a>, or check my games out on <a href="https://problem-18.itch.io/" target="_blank" rel="noopener noreferrer" class="">Itch.io</a>!</strong></p>
-<p>Thank you for stopping by, and I hope that my learnings can teach you something at the same time, or at the very least you can have a laugh at my possibly very rookie mistakes.</p>
+<p>Thank you for stopping by, and I hope that my journey bring you some value in your own game development adventure, or at the very least you can have a laugh at my possibly very rookie mistakes.</p>
 <img src="https://problem-18-dev.github.io/img/games/problem_18_with_animation.png" width="60%" alt="problem 18 logo with stick figure symboling peace">]]></content:encoded>
             <category>Personal</category>
             <category>Announcements</category>
