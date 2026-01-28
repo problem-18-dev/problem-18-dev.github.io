@@ -91,10 +91,11 @@ const config: Config = {
         alt: 'Problem 18 Logo',
         src: 'img/logo-dark.svg',
         srcDark: 'img/logo.svg',
+        style: { height: '40px' },
       },
       items: [
         {
-          href: 'https://github.com/problem-18-dev',
+          href: 'https://github.com/problem-18-dev/problem-18-dev.github.io',
           label: 'GitHub',
           position: 'right',
           'aria-label': 'Problem 18 GitHub Repository',
