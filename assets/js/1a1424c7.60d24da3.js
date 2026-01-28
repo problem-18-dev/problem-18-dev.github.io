@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkproblem_18_blog=globalThis.webpackChunkproblem_18_blog||[]).push([[434],{6119(e){e.exports=JSON.parse('{"metadata":{"permalink":"/","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog about learning my journey into game development.","blogTitle":"Problem 18 Blog"}}')}}]);

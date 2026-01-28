@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkproblem_18_blog=globalThis.webpackChunkproblem_18_blog||[]).push([[472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Hi there!","permalink":"/test-blog","unlisted":false,"date":"2026-01-28T00:00:00.000Z"}]}')}}]);
