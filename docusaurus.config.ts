@@ -81,7 +81,7 @@ const config: Config = {
       textColor: '#EBEBD3',
       isCloseable: false,
     },
-    image: 'img/problem18-social-card.jpg',
+    image: 'img/brand/problem-18-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
       defaultMode: 'dark',
