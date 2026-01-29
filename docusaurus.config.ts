@@ -72,6 +72,18 @@ const config: Config = {
         content:
           'Game Development, Indie Game Dev, Learning Game Development, Problem 18, Blog',
       },
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        name: 'twitter:creator',
+        content: '@Problem18Dev',
+      },
+      {
+        name: 'twitter:image',
+        content: 'img/problem-18-social-card.jpg',
+      },
     ],
     announcementBar: {
       id: 'work-in-progress',
