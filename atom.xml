@@ -93,7 +93,7 @@ Quite daunting but I did <strong>not</strong> let that overwhelm me.</p>
 <p>Because I know myself, and I realize that I quickly feel lonely during exploration of new hobbies, skills and interests.</p>
 <p>Additionally, I would like to earn my place and belong in the game development community, and by keeping my games, my learnings and mistakes honest in public, I hope to do just that.</p>
 <p>I even created a whole brand design, including this header. <!-- -->😄</p>
-<img src="https://problem-18-dev.github.io/img/games/problem18-banner.jpg" width="100%" alt="Problem 18 banner">
+<img src="https://problem-18-dev.github.io/img/brand/problem18-banner.jpg" width="100%" alt="Problem 18 banner">
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-18">Why "18"?<a href="https://problem-18-dev.github.io/about-me#why-18" class="hash-link" aria-label="Direct link to Why &quot;18&quot;?" title="Direct link to Why &quot;18&quot;?" translate="no">​</a></h3>
 <p>To keep myself to some discipline, as well as to keep the show going consistently, I decided that creating a game (and following the challenge) every 18 days would be a reasonable task. The number 18 was chosen for no particular reason other than my guess for how long on average every game would take, especially considering that I'm starting from zero.</p>
 <p>I am aware that as I move up, the difficulty and scope of each game increases and we'll step beyond those 18 days sooner or later. Not to mention that I am learning many aspects on the go, and aim to have at the very least basic knowledge and skills in all of them by the time the challenge is done.</p>
@@ -114,7 +114,7 @@ Quite daunting but I did <strong>not</strong> let that overwhelm me.</p>
 <li class="">Minecraft (June 30, 2026)</li>
 </ul>
 <p>So yeah, lots of work ahead of me. However, as of the day I'm writing this, I am semi-finished with Frogger and it's basically a month before the deadline. The game I'm most proud of right now is <a href="https://problem-18.itch.io/keybricks" target="_blank" rel="noopener noreferrer" class="">Keybricks</a>.</p>
-<img src="https://problem-18-dev.github.io/img/games/keybricks_logo.png" width="50%" alt="Logo of game keybricks">
+<img src="https://problem-18-dev.github.io/img/games/keybricks/keybricks_logo.png" width="50%" alt="Logo of game keybricks">
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="semi-finished">Semi-finished?<a href="https://problem-18-dev.github.io/about-me#semi-finished" class="hash-link" aria-label="Direct link to Semi-finished?" title="Direct link to Semi-finished?" translate="no">​</a></h4>
 <p>I'm not too happy with how the game turned out. More about that in a future post.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="skills">Skills<a href="https://problem-18-dev.github.io/about-me#skills" class="hash-link" aria-label="Direct link to Skills" title="Direct link to Skills" translate="no">​</a></h3>
@@ -134,7 +134,7 @@ Quite daunting but I did <strong>not</strong> let that overwhelm me.</p>
 <p>So that's more or less what I can tell you about me and Problem 18 so far. I aim to keep these posts coming every second or third week, focusing on what I've learned, what mistakes I made, what obstacles I stumbled upon, and announcing the games, of course.</p>
 <p><strong>If you're also into indie game development, whether you're a player or developer yourself, I would love to connect and learn about your adventures as well. Feel free to reach out on <a href="https://x.com/Problem18Dev" target="_blank" rel="noopener noreferrer" class="">X</a> or <a href="https://bsky.app/profile/problem18dev.bsky.social" target="_blank" rel="noopener noreferrer" class="">Bluesky</a>, or check my games out on <a href="https://problem-18.itch.io/" target="_blank" rel="noopener noreferrer" class="">Itch.io</a>!</strong></p>
 <p>Thank you for stopping by, and I hope that my journey brings you some value in your own game development adventure, or at the very least you can have a laugh at my possibly very rookie mistakes.</p>
-<img src="https://problem-18-dev.github.io/img/games/problem_18_with_animation.png" width="60%" alt="problem 18 logo with stick figure symboling peace">]]></content>
+<img src="https://problem-18-dev.github.io/img/brand/problem18-with-animation.png" width="60%" alt="problem 18 logo with stick figure symboling peace">]]></content>
         <author>
             <name>Problem 18 Developer</name>
         </author>
@@ -148,6 +148,7 @@ Quite daunting but I did <strong>not</strong> let that overwhelm me.</p>
         <summary type="html"><![CDATA[Welcome to my blog post! I'm learning about game development.]]></summary>
         <content type="html"><![CDATA[<p>Welcome to my blog post! I'll be posting here regularly about all kinds of adventures, mishaps and announcements as I learn about game development.</p>
 <p>Feel free to reach out through social medias, or play my games as they come!</p>
+<!-- -->
 <p>Itch.io: <a href="https://problem-18.itch.io/" target="_blank" rel="noopener noreferrer" class="">https://problem-18.itch.io/</a></p>
 <p>Thank you for visiting!</p>]]></content>
         <author>
