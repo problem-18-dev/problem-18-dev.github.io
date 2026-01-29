@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Problem 18',
+  title: 'Problem 18 | Game Development Blog',
   tagline: 'Learning game development, 18 days at a time.',
   favicon: 'img/favicon.ico',
 
@@ -51,7 +51,7 @@ const config: Config = {
           },
           blogTitle: 'Problem 18 Blog',
           blogDescription:
-            'Blog about learning my journey into game development.',
+            "Blog about learning my journey into game development. You'll find my adventures, mishaps, and announcements",
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -81,8 +81,20 @@ const config: Config = {
         content: '@Problem18Dev',
       },
       {
-        name: 'twitter:image',
-        content: 'img/problem-18-social-card.jpg',
+        name: 'twitter:site',
+        content: '@Problem18Dev',
+      },
+      {
+        property: 'og:image',
+        content: 'img/brand/problem-18-social-card.jpg',
+      },
+      {
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        property: 'og:locale',
+        content: 'en_US',
       },
     ],
     announcementBar: {
