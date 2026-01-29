@@ -106,6 +106,10 @@ const config: Config = {
         property: 'og:type',
         content: 'website',
       },
+      {
+        name: 'google-site-verification',
+        content: 'KAnQkHkKh_axPW_3sYbH_pcNsng4ucwm4whoI0qfPPk',
+      },
     ],
     announcementBar: {
       id: 'work-in-progress',
