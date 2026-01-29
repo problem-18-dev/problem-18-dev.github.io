@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Problem 18 | Game Development Blog',
+  title: 'Problem 18',
   tagline: 'Learning game development, 18 days at a time.',
   favicon: 'img/favicon.ico',
 
@@ -49,9 +49,9 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          blogTitle: 'Problem 18 Blog',
+          blogTitle: 'Problem 18 | Learning Game Development',
           blogDescription:
-            "Blog about learning my journey into game development. You'll find my adventures, mishaps, and announcements",
+            "Blog about learning my journey into game development. Here you'll find my adventures, mishaps, and announcements",
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -77,6 +77,14 @@ const config: Config = {
         content: 'summary_large_image',
       },
       {
+        property: 'twitter:domain',
+        content: 'problem-18-dev.github.io',
+      },
+      {
+        property: 'twitter:url',
+        content: 'https://problem-18-dev.github.io',
+      },
+      {
         name: 'twitter:creator',
         content: '@Problem18Dev',
       },
@@ -85,16 +93,18 @@ const config: Config = {
         content: '@Problem18Dev',
       },
       {
+        name: 'twitter:image',
+        content:
+          'https://problem-18-dev.github.io/img/brand/problem-18-social-card.jpg',
+      },
+      {
         property: 'og:image',
-        content: 'img/brand/problem-18-social-card.jpg',
+        content:
+          'https://problem-18-dev.github.io/img/brand/problem-18-social-card.jpg',
       },
       {
         property: 'og:type',
         content: 'website',
-      },
-      {
-        property: 'og:locale',
-        content: 'en_US',
       },
     ],
     announcementBar: {
