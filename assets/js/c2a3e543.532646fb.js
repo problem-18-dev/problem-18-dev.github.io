@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkproblem_18_blog=globalThis.webpackChunkproblem_18_blog||[]).push([[885],{2937(e){e.exports=JSON.parse('{"tags":[{"label":"Personal","permalink":"/tags/personal","description":"Posts of a more personal nature","count":1},{"label":"Announcements","permalink":"/tags/announcements","description":"Announcement-related posts","count":1}]}')}}]);

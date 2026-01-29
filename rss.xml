@@ -4,40 +4,99 @@
         <title>Problem 18 Blog</title>
         <link>https://problem-18-dev.github.io</link>
         <description>Problem 18 Blog</description>
-        <lastBuildDate>Wed, 28 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Hi there!]]></title>
-            <link>https://problem-18-dev.github.io/test-blog</link>
-            <guid>https://problem-18-dev.github.io/test-blog</guid>
-            <pubDate>Wed, 28 Jan 2026 00:00:00 GMT</pubDate>
+            <title><![CDATA[Tricat released!]]></title>
+            <link>https://problem-18-dev.github.io/tricat-release</link>
+            <guid>https://problem-18-dev.github.io/tricat-release</guid>
+            <pubDate>Fri, 09 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Post announcing the release of Tricat, the first game of the challenge of Problem 18.]]></description>
+            <content:encoded><![CDATA[<p>Tricat, the first game of the challenge is live! A Flappy Bird clone built in Godot, inspired by a beloved three-legged cat. Tricat must jump between brooms to gain score, falling into a broom will not end well!</p>
+<p>Try it out on itch.io: <a href="https://problem-18.itch.io/tricat" target="_blank" rel="noopener noreferrer" class="">https://problem-18.itch.io/tricat</a></p>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="first-game">First game<a href="https://problem-18-dev.github.io/tricat-release#first-game" class="hash-link" aria-label="Direct link to First game" title="Direct link to First game" translate="no">​</a></h3>
+<p><strong>Tricat</strong> is the first game of the challenge. A Flappy Bird clone, with a small twist on the theme. In this case it being a black cat that has to avoid brooms with a purple and starry background representing the night. The player has to jump using their mouse button or space to keep the the cat afloat and avoiding the brooms.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-i-started">How I started<a href="https://problem-18-dev.github.io/tricat-release#how-i-started" class="hash-link" aria-label="Direct link to How I started" title="Direct link to How I started" translate="no">​</a></h3>
+<p>I started off by going through <a href="https://docs.godotengine.org/en/stable/getting_started/introduction/index.html" target="_blank" rel="noopener noreferrer" class="">the engine's documentation</a> first. Getting to know what design principles, key concepts and interfaces are in store for me.</p>
+<p>After the introduction, I followed the excellently written tutorial on how to create <a href="https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html" target="_blank" rel="noopener noreferrer" class="">your first 2D game</a>. This involved using pre-made assets, writing code, and research the workflow of scenes and nodes. A smooth experience that allowed me to easily step into the world of Godot, at least regarding 2D.</p>
+<img src="https://problem-18-dev.github.io/img/godot/2d_demo.gif">
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tricat">Tricat<a href="https://problem-18-dev.github.io/tricat-release#tricat" class="hash-link" aria-label="Direct link to Tricat" title="Direct link to Tricat" translate="no">​</a></h3>
+<p>First mistake: Sitting down, saying "Time to work on the first game!", and realizing that I actually had no idea <strong>what</strong> I want to make. I mean sure, it's a flappy bird clone.. but what? Well, luckily someone gave me a suggestion!</p>
+<p>The game's theme was inspired by a cat belonging to someone very close to me, this poor cat only has three legs (but zooms around like a demon regardless).</p>
+<p>The same person actually hinted me towards the direction of what the game's theme should be. "A black cat being hunted by a witch on a broom at night".</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="sounds-cool-but">Sounds cool but..<a href="https://problem-18-dev.github.io/tricat-release#sounds-cool-but" class="hash-link" aria-label="Direct link to Sounds cool but.." title="Direct link to Sounds cool but.." translate="no">​</a></h4>
+<p>What immediately stuck is that imagining, and talking about a game idea is easy. However, then it clicks that every single movement, every single sound and gameplay mechanic is something that has to be created from scratch, every time.
+Quite daunting but I did <strong>not</strong> let that overwhelm me.</p>
+<p>I opened up Notion, created some pages where I basically copy/pasted the requirements set in the <a href="https://20_games_challenge.gitlab.io/challenge/" target="_blank" rel="noopener noreferrer" class="">20 games challenge</a>, and so I could easily have a checklist of what is to be done. This allowed development to be much less overwhelming, and having the game done in small, incremental steps allowed me to quickly get started, and finished too.</p>
+<img src="https://problem-18-dev.github.io/img/games/tricat/tricat_notion.png" alt="Tricat's to-do list with checkboxes for each task">
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-about-the-actual-creation">What about the actual creation?<a href="https://problem-18-dev.github.io/tricat-release#what-about-the-actual-creation" class="hash-link" aria-label="Direct link to What about the actual creation?" title="Direct link to What about the actual creation?" translate="no">​</a></h4>
+<p>The art was done using <a href="https://www.aseprite.org/" target="_blank" rel="noopener noreferrer" class="">Aseprite</a> which I had purchased quite some time ago and never really used. It was overwhelming at first but <a href="https://youtu.be/tFsETEP01k8?si=jYvA6PJDsh0FvZxm" target="_blank" rel="noopener noreferrer" class="">this excellent tutorial by YouTuber Saultoons</a> explained Aseprite to me enough to get started.</p>
+<p>Sound effects were a totally new area for me. I installed <a href="https://www.audacityteam.org/" target="_blank" rel="noopener noreferrer" class="">Audacity</a>, and just recorded some random noises using my own mouth. It was silly, it was funny, and damn, it was an adventure! I must say, Audacity is so simple to use, it's so cool that it's free.</p>
+<p>In the end, all it took was making some random noises, who knew!</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="biggest-hurdles">Biggest hurdles<a href="https://problem-18-dev.github.io/tricat-release#biggest-hurdles" class="hash-link" aria-label="Direct link to Biggest hurdles" title="Direct link to Biggest hurdles" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="collisions-and-types">Collisions and types<a href="https://problem-18-dev.github.io/tricat-release#collisions-and-types" class="hash-link" aria-label="Direct link to Collisions and types" title="Direct link to Collisions and types" translate="no">​</a></h4>
+<p>Lots of time went into figuring out and puzzling. Should the little cat be a <a href="https://docs.godotengine.org/en/stable/classes/class_rigidbody2d.html" target="_blank" rel="noopener noreferrer" class="">RigidBody2D</a> (let physics do the work)? Perhaps a <a href="https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html" target="_blank" rel="noopener noreferrer" class="">CharacterBody2D</a> (handle control and movement myself through scripting)? After all, it is our character, and it is a character we want to control. Turns out that CharacterBody2D was the right call for me.</p>
+<p>Same thing for the brooms, after hours of tinkering and <em>more</em> puzzling, I settled on Area2D's that just move to the left.</p>
+<blockquote>
+<p>Oh my god, why are they not colliding?!</p>
+<p>— Me</p>
+</blockquote>
+<p>It took tinkering and time for me to understand how bodies and areas work between each other, whether it's okay and efficient to have an Area2D move to the left while a body comes into it's <a href="https://docs.godotengine.org/en/stable/classes/class_collisionshape2d.html" target="_blank" rel="noopener noreferrer" class="">CollisionShape2D</a>. I quickly found out that this worked just fine, actually.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="spawning-of-brooms">Spawning of brooms<a href="https://problem-18-dev.github.io/tricat-release#spawning-of-brooms" class="hash-link" aria-label="Direct link to Spawning of brooms" title="Direct link to Spawning of brooms" translate="no">​</a></h4>
+<p>Another big one was the spawning of the brooms with a random position on the y-axis. We want to spawn them in a certain distance from each other, while also randomizing keeping the height of the gap at different spots. Otherwise, the game would be very simple and just spawn the exact same brooms, with the exact same distance and position every time.</p>
+<p>So I created a new scene that contains two brooms, I set up a script that would put a distance between them. In a parent node, another script determined the height of this new scene, and that way it did exactly what was necessary.</p>
+<p>Oh, and the spawning was determined by a <a href="https://docs.godotengine.org/en/stable/classes/class_path2d.html" target="_blank" rel="noopener noreferrer" class="">Path2D</a> and just choosing a random location.</p>
+<p>Here's a snippet of some of the code used.</p>
+<div class="language-gdscript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-gdscript codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token comment" style="color:rgb(98, 114, 164)"># Put distance between the two brooms</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token variable" style="color:rgb(189, 147, 249);font-style:italic">$UpperBroom</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token plain">position</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token plain">y </span><span class="token operator">-=</span><span class="token plain"> distance</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token variable" style="color:rgb(189, 147, 249);font-style:italic">$LowerBroom</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token plain">position</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token plain">y </span><span class="token operator">+=</span><span class="token plain"> distance</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token comment" style="color:rgb(98, 114, 164)"># Spawn set of brooms at random location of Path2D</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">var</span><span class="token plain"> obstacle_set </span><span class="token operator">:=</span><span class="token plain"> obstacle_scene</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token function" style="color:rgb(80, 250, 123)">instantiate</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">var</span><span class="token plain"> spawn_location </span><span class="token operator">=</span><span class="token plain"> </span><span class="token variable" style="color:rgb(189, 147, 249);font-style:italic">$ObstaclePath</span><span class="token operator">/</span><span class="token plain">ObstacleSpawnLocation</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">spawn_location</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token plain">progress_ratio </span><span class="token operator">=</span><span class="token plain"> </span><span class="token function" style="color:rgb(80, 250, 123)">randf</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">obstacle_set</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token plain">position </span><span class="token operator">=</span><span class="token plain"> spawn_location</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token plain">position</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token function" style="color:rgb(80, 250, 123)">add_child</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token plain">obstacle_set</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-i-learned">What I learned<a href="https://problem-18-dev.github.io/tricat-release#what-i-learned" class="hash-link" aria-label="Direct link to What I learned" title="Direct link to What I learned" translate="no">​</a></h3>
+<p>At the end of the day, the game wasn't the most difficult to create. Due to my experience and knowledge of coding, I was able to get a quick prototype going and it rolled off the hill easily after that.</p>
+<p>I was very excited to have had finished, as I heard more than enough that actually finishing a game is the hardest part of game development. While the game perhaps is small, it was still a big achievement for me personally.</p>
+<p>For the next game, Keybricks, I brought along the following lessons:</p>
+<ul>
+<li class="">Godot's documentation is absolutely golden, and I will keep using it first.</li>
+<li class="">Have a concrete idea of the game's theme before you actually start working.</li>
+<li class="">GDScript, Aseprite &amp; Audacity basics.</li>
+<li class="">How collisions between areas and bodies work.</li>
+</ul>
+<p>That's all!</p>
+<p><a href="https://problem-18.itch.io/tricat" target="_blank" rel="noopener noreferrer" class="">Try Tricat and let me know what you think!</a></p>
+<img src="https://problem-18-dev.github.io/img/games/tricat/gameplay_demo.gif" width="75%">]]></content:encoded>
+            <category>Game-specific</category>
+            <category>Announcements</category>
+        </item>
+        <item>
+            <title><![CDATA[About me and Problem 18!]]></title>
+            <link>https://problem-18-dev.github.io/about-me</link>
+            <guid>https://problem-18-dev.github.io/about-me</guid>
+            <pubDate>Fri, 02 Jan 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[This is the first post of my blog about my game development journey under the "Problem 18" brand.]]></description>
             <content:encoded><![CDATA[<p>Being a software engineer by day and a gamer by life, game development has always been on my mind. Despite multiple very small attempts, I've never really put much effort into it. Problem 18 is my public journey to finally turn this interest into a skill, one game and 18 days at a time.</p>
 <!-- -->
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="who-am-i">Who am I?<a href="https://problem-18-dev.github.io/test-blog#who-am-i" class="hash-link" aria-label="Direct link to Who am I?" title="Direct link to Who am I?" translate="no">​</a></h3>
-<p>To start off, here's a quick gist of about me:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="who-am-i">Who am I?<a href="https://problem-18-dev.github.io/about-me#who-am-i" class="hash-link" aria-label="Direct link to Who am I?" title="Direct link to Who am I?" translate="no">​</a></h3>
+<p>To start off, here's a quick gist about me:</p>
 <ul>
 <li class="">I'm 26 years old. (This is easy to know by looking at what year we're in!)</li>
 <li class="">I'm Belgian.</li>
 <li class="">I work as a software engineer by day.</li>
 <li class="">I have essentially no game development experience aside from <strong>very</strong> basic tutorials over years.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-problem-18">What is Problem 18?<a href="https://problem-18-dev.github.io/test-blog#what-is-problem-18" class="hash-link" aria-label="Direct link to What is Problem 18?" title="Direct link to What is Problem 18?" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-problem-18">What is Problem 18?<a href="https://problem-18-dev.github.io/about-me#what-is-problem-18" class="hash-link" aria-label="Direct link to What is Problem 18?" title="Direct link to What is Problem 18?" translate="no">​</a></h3>
 <p>Problem 18 is my idea to publicize my journey to learn game development and to transform it into a strong hobby, with the intent to later move on and make a game of my own.</p>
 <p>With my knowledge and experience in coding, starting off with simple games was definitely the right first step. I took a few looks through Reddit and other social medias to find out that the <a href="https://20_games_challenge.gitlab.io/" target="_blank" rel="noopener noreferrer" title="Link to the 20 games challenge website" class="">20 games challenge</a> is a popular way of getting started with game development for people who already have got the learning of programming out of the way.</p>
 <p>So I told myself that if I want to finally make games instead of dreaming about it, this challenge is one hell of a way to start doing so.</p>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-do-it-publicly">Why do it publicly?<a href="https://problem-18-dev.github.io/test-blog#why-do-it-publicly" class="hash-link" aria-label="Direct link to Why do it publicly?" title="Direct link to Why do it publicly?" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-do-it-publicly">Why do it publicly?<a href="https://problem-18-dev.github.io/about-me#why-do-it-publicly" class="hash-link" aria-label="Direct link to Why do it publicly?" title="Direct link to Why do it publicly?" translate="no">​</a></h4>
 <p>Because I know myself, and I realize that I quickly feel lonely during exploration of new hobbies, skills and interests.</p>
 <p>Additionally, I would like to earn my place and belong in the game development community, and by keeping my games, my learnings and mistakes honest in public, I hope to do just that.</p>
-<p>I even created a whole brand design, including this header. :-)</p>
+<p>I even created a whole brand design, including this header. <!-- -->😄</p>
 <img src="https://problem-18-dev.github.io/img/games/problem18-banner.jpg" width="100%" alt="Problem 18 banner">
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-18">Why "18"?<a href="https://problem-18-dev.github.io/test-blog#why-18" class="hash-link" aria-label="Direct link to Why &quot;18&quot;?" title="Direct link to Why &quot;18&quot;?" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-18">Why "18"?<a href="https://problem-18-dev.github.io/about-me#why-18" class="hash-link" aria-label="Direct link to Why &quot;18&quot;?" title="Direct link to Why &quot;18&quot;?" translate="no">​</a></h3>
 <p>To keep myself to some discipline, as well as to keep the show going consistently, I decided that creating a game (and following the challenge) every 18 days would be a reasonable task. The number 18 was chosen for no particular reason other than my guess for how long on average every game would take, especially considering that I'm starting from zero.</p>
 <p>I am aware that as I move up, the difficulty and scope of each game increases and we'll step beyond those 18 days sooner or later. Not to mention that I am learning many aspects on the go, and aim to have at the very least basic knowledge and skills in all of them by the time the challenge is done.</p>
-<p>I've definitely got my work cut out for me, but I am not scared of it. In fact, I am so excited to be learning all these new skills, to get my creation out there, even if it just to a few people.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="games">Games<a href="https://problem-18-dev.github.io/test-blog#games" class="hash-link" aria-label="Direct link to Games" title="Direct link to Games" translate="no">​</a></h3>
+<p>I've definitely got my work cut out for me, but I am not scared of it. In fact, I am so excited to be learning all these new skills, to get my creation out there, even if it's just to a few people.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="games">Games<a href="https://problem-18-dev.github.io/about-me#games" class="hash-link" aria-label="Direct link to Games" title="Direct link to Games" translate="no">​</a></h3>
 <p>The games you can expect will be clones of cult classic games, starting from Flappy Bird, ending with Minecraft. On each game, I plan to add a small twist of my own. Whether that's the theme, some new mechanic or mood. Every game is taken from the 20 games challenge.</p>
 <p>The plan as of today, followed by planned release date:</p>
 <ul>
@@ -54,11 +113,11 @@
 </ul>
 <p>So yeah, lots of work ahead of me. However, as of the day I'm writing this, I am semi-finished with Frogger and it's basically a month before the deadline. The game I'm most proud of right now is <a href="https://problem-18.itch.io/keybricks" target="_blank" rel="noopener noreferrer" class="">Keybricks</a>.</p>
 <img src="https://problem-18-dev.github.io/img/games/keybricks_logo.png" width="50%" alt="Logo of game keybricks">
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="semi-finished">Semi-finished?<a href="https://problem-18-dev.github.io/test-blog#semi-finished" class="hash-link" aria-label="Direct link to Semi-finished?" title="Direct link to Semi-finished?" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="semi-finished">Semi-finished?<a href="https://problem-18-dev.github.io/about-me#semi-finished" class="hash-link" aria-label="Direct link to Semi-finished?" title="Direct link to Semi-finished?" translate="no">​</a></h4>
 <p>I'm not too happy with how the game turned out. More about that in a future post.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="skills">Skills<a href="https://problem-18-dev.github.io/test-blog#skills" class="hash-link" aria-label="Direct link to Skills" title="Direct link to Skills" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="skills">Skills<a href="https://problem-18-dev.github.io/about-me#skills" class="hash-link" aria-label="Direct link to Skills" title="Direct link to Skills" translate="no">​</a></h3>
 <p>To make a game, one must develop all kinds of skills, I probably cannot even list them all yet as odds are I haven't even stumbled upon them.</p>
-<p><strong>The goal is to be able to make games that present my visions and ideas, that will require me to have at the very least, strong basic knowledge in many skills.</strong></p>
+<p><strong>The goal is to be able to make games that represent my visions and ideas, that will require me to have at the very least, strong basic knowledge in many skills.</strong></p>
 <p>This includes:</p>
 <ul>
 <li class="">Art</li>
@@ -69,11 +128,23 @@
 <li class="">Whatever else games require!</li>
 </ul>
 <p>I plan to use various tools to help me along the way. <a href="https://www.aseprite.org/" target="_blank" rel="noopener noreferrer" title="Link to Aseprite" class="">Aseprite</a> for 2D, <a href="https://www.blender.org/" target="_blank" rel="noopener noreferrer" class="">Blender</a> for 3D, <a href="https://www.audacityteam.org/" target="_blank" rel="noopener noreferrer" class="">Audacity</a> for SFX, <a href="https://godotengine.org/" target="_blank" rel="noopener noreferrer" class="">Godot</a> as the game engine, ..</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="thank-you">Thank you<a href="https://problem-18-dev.github.io/test-blog#thank-you" class="hash-link" aria-label="Direct link to Thank you" title="Direct link to Thank you" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="thank-you">Thank you<a href="https://problem-18-dev.github.io/about-me#thank-you" class="hash-link" aria-label="Direct link to Thank you" title="Direct link to Thank you" translate="no">​</a></h3>
 <p>So that's more or less what I can tell you about me and Problem 18 so far. I aim to keep these posts coming every second or third week, focusing on what I've learned, what mistakes I made, what obstacles I stumbled upon, and announcing the games, of course.</p>
 <p><strong>If you're also into indie game development, whether you're a player or developer yourself, I would love to connect and learn about your adventures as well. Feel free to reach out on <a href="https://x.com/Problem18Dev" target="_blank" rel="noopener noreferrer" class="">X</a> or <a href="https://bsky.app/profile/problem18dev.bsky.social" target="_blank" rel="noopener noreferrer" class="">Bluesky</a>, or check my games out on <a href="https://problem-18.itch.io/" target="_blank" rel="noopener noreferrer" class="">Itch.io</a>!</strong></p>
-<p>Thank you for stopping by, and I hope that my journey bring you some value in your own game development adventure, or at the very least you can have a laugh at my possibly very rookie mistakes.</p>
+<p>Thank you for stopping by, and I hope that my journey brings you some value in your own game development adventure, or at the very least you can have a laugh at my possibly very rookie mistakes.</p>
 <img src="https://problem-18-dev.github.io/img/games/problem_18_with_animation.png" width="60%" alt="problem 18 logo with stick figure symboling peace">]]></content:encoded>
+            <category>Personal</category>
+        </item>
+        <item>
+            <title><![CDATA[Welcome!]]></title>
+            <link>https://problem-18-dev.github.io/welcome</link>
+            <guid>https://problem-18-dev.github.io/welcome</guid>
+            <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to my blog post! I'm learning about game development.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to my blog post! I'll be posting here regularly about all kinds of adventures, mishaps and announcements as I learn about game development.</p>
+<p>Feel free to reach out through social medias, or play my games as they come!</p>
+<p>Itch.io: <a href="https://problem-18.itch.io/" target="_blank" rel="noopener noreferrer" class="">https://problem-18.itch.io/</a></p>
+<p>Thank you for visiting!</p>]]></content:encoded>
             <category>Personal</category>
             <category>Announcements</category>
         </item>
