@@ -1,5 +1,12 @@
 {
-  "cSpell.words": ["noopener", "noreferrer"],
+  "cSpell.words": [
+    "Aseprite",
+    "Keybricks",
+    "noopener",
+    "noreferrer",
+    "randf",
+    "Tricat"
+  ],
   "[markdown]": {
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
