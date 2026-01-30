@@ -30,6 +30,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-a {
+.markdown a,
+ul li a:hover {
   text-decoration: underline;
 }
