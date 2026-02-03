@@ -1,0 +1,23 @@
+{
+  "cSpell.words": [
+    "Aseprite",
+    "Frogger",
+    "Keybricks",
+    "Lospec",
+    "noopener",
+    "noreferrer",
+    "onready",
+    "progresstexturebar",
+    "randf",
+    "Saultoons",
+    "textureprogressbar",
+    "Tricat"
+  ],
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": "explicit"
+    }
+  }
+}
