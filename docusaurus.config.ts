@@ -66,7 +66,13 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  scripts: [
+    {
+      src: '//gc.zgo.at/count.js',
+      'data-goatcounter': 'https://problem-18-dev.goatcounter.com/count',
+      async: true,
+    },
+  ],
   themeConfig: {
     metadata: [
       {
