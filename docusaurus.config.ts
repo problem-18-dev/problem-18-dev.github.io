@@ -164,6 +164,18 @@ const config: Config = {
       additionalLanguages: ['gdscript'],
     },
   } satisfies Preset.ThemeConfig,
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      {
+        hashed: true,
+        indexDocs: false,
+        blogRouteBasePath: '/',
+        searchBarPosition: 'right',
+      },
+    ],
+  ],
 };
 
 export default config;

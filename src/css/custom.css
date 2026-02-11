@@ -16,6 +16,8 @@
   --ifm-code-font-size: 95%;
   --ifm-navbar-height: 5rem;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --search-local-highlight-color: #100c08;
+  --search-local-hit-active-color: #ebebd3;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -28,6 +30,8 @@
   --ifm-color-primary-lighter: #ffffff;
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --search-local-highlight-color: #ebebd3;
+  --search-local-hit-active-color: #100c08;
 }
 
 .markdown a,

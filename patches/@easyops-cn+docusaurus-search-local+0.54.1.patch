@@ -1,0 +1,49 @@
+diff --git a/node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar/SearchBar.jsx b/node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar/SearchBar.jsx
+index 96ed430..9e13e4b 100644
+--- a/node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar/SearchBar.jsx
++++ b/node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar/SearchBar.jsx
+@@ -4,12 +4,11 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+ import useIsBrowser from "@docusaurus/useIsBrowser";
+ import { useHistory, useLocation } from "@docusaurus/router";
+ import { translate } from "@docusaurus/Translate";
+-import { useActivePlugin, useActiveVersion, } from "@docusaurus/plugin-content-docs/client";
+ import { fetchIndexesByWorker, searchByWorker } from "../searchByWorker";
+ import { SuggestionTemplate } from "./SuggestionTemplate";
+ import { EmptyTemplate } from "./EmptyTemplate";
+ import { SearchDocumentType } from "../../../shared/interfaces";
+-import { Mark, searchBarShortcut, searchBarShortcutHint, searchBarShortcutKeymap, searchBarPosition, docsPluginIdForPreferredVersion, searchContextByPaths, hideSearchBarWithNoSearchContext, useAllContextsWithNoSearchContext, askAi, } from "../../utils/proxiedGenerated";
++import { Mark, searchBarShortcut, searchBarShortcutHint, searchBarShortcutKeymap, searchBarPosition, searchContextByPaths, hideSearchBarWithNoSearchContext, useAllContextsWithNoSearchContext, askAi, } from "../../utils/proxiedGenerated";
+ import LoadingRing from "../LoadingRing/LoadingRing";
+ import { normalizeContextByPath } from "../../utils/normalizeContextByPath";
+ import { searchResultLimits } from "../../utils/proxiedGeneratedConstants";
+@@ -46,13 +45,8 @@ const SEARCH_PARAM_HIGHLIGHT = "_highlight";
+ export default function SearchBar({ handleSearchBarToggle, }) {
+     const isBrowser = useIsBrowser();
+     const { siteConfig: { baseUrl }, i18n: { currentLocale }, } = useDocusaurusContext();
+-    // It returns undefined for non-docs pages
+-    const activePlugin = useActivePlugin();
+-    let versionUrl = baseUrl;
+-    const activeVersion = useActiveVersion(activePlugin?.pluginId ?? docsPluginIdForPreferredVersion);
+-    if (activeVersion && !activeVersion.isLast) {
+-        versionUrl = activeVersion.path + "/";
+-    }
++    // Use baseUrl when docs plugin is not enabled (e.g. blog-only sites)
++    const versionUrl = baseUrl;
+     const history = useHistory();
+     const location = useLocation();
+     const searchBarRef = useRef(null);
+diff --git a/node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar/index.jsx b/node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar/index.jsx
+index f2f988d..5942879 100644
+--- a/node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar/index.jsx
++++ b/node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar/index.jsx
+@@ -1,9 +1,6 @@
+ import React from "react";
+ import "../../utils/proxiedGenerated";
+ import SearchBar from "./SearchBar";
+-import { DocsPreferredVersionContextProvider } from "@docusaurus/plugin-content-docs/client";
+ export default function SearchBarWrapper(props) {
+-    return (<DocsPreferredVersionContextProvider>
+-      <SearchBar {...props}/>
+-    </DocsPreferredVersionContextProvider>);
++    return <SearchBar {...props}/>;
+ }
