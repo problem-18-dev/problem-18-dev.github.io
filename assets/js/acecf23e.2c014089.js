@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkproblem_18_blog=globalThis.webpackChunkproblem_18_blog||[]).push([[1903],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/","blogTitle":"Problem 18 | Learning Game Development 18 days at a time","authorsListPath":"/authors"}')}}]);
