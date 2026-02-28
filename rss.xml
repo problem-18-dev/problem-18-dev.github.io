@@ -4,10 +4,43 @@
         <title>Problem 18 Blog</title>
         <link>https://problem-18-dev.github.io</link>
         <description>Problem 18 Blog</description>
-        <lastBuildDate>Wed, 11 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Cheese Chasers released!]]></title>
+            <link>https://problem-18-dev.github.io/cheese-chasers-release</link>
+            <guid>https://problem-18-dev.github.io/cheese-chasers-release</guid>
+            <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Play Cheese Chasers for free on itch.io, be a ship of cheese defending yourself from hordes of hungry mice! Game 4/10 of the Problem 18 challenge.]]></description>
+            <content:encoded><![CDATA[<p>Cheese Chasers is out!</p>
+<p>Shoot lasers, use power-ups, and defend yourself from hordes of hungry mice!</p>
+<iframe frameborder="0" src="https://itch.io/embed/4320281" width="552" height="167"><a href="https://problem-18.itch.io/cheese-chasers"><p>Cheese Chasers by Problem 18</p></a></iframe>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-the-game">What's the game?<a href="https://problem-18-dev.github.io/cheese-chasers-release#whats-the-game" class="hash-link" aria-label="Direct link to What's the game?" title="Direct link to What's the game?" translate="no">​</a></h3>
+<p>Cheese Chasers is an Asteroids clone. An arcade game where you control a ship and defend yourself from asteroids. My twist on it is that your ship is a triangle of cheese, the asteroids are mice, and you have power-ups like accelerated shooting, or invincibility. With every wave of mice you defeat, a bigger wave comes at you until you no longer can handle it.</p>
+<p>This is the fourth game of the Problem 18 challenge, and easily the biggest and most complex one so far. I learned many things like the basics behind particle systems, more advanced sound effects, a better GUI, ... This includes, but is not limited to better structuring of code, better usage of color palettes, and a lot more.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-cheese-and-why-does-it-have-blasters">Why cheese.. and why does it have blasters?<a href="https://problem-18-dev.github.io/cheese-chasers-release#why-cheese-and-why-does-it-have-blasters" class="hash-link" aria-label="Direct link to Why cheese.. and why does it have blasters?" title="Direct link to Why cheese.. and why does it have blasters?" translate="no">​</a></h4>
+<p>My immediate thoughts on this game were to make it a little goofy. The initial idea was to be a block of cheese, defending yourself from mice, and I got that! I also wanted it to be in a different setting than space, and there were various elements that I wanted differently but I realized that this was a repetition of a big mistake made during the development of my previous game <a class="" href="https://problem-18-dev.github.io/i-need-to-go-release">I need to go</a>, <em>by over-scoping through creative ideas</em>. So I decided to keep it in space, perhaps it is goofy in its own way through that!</p>
+<p>As mentioned above, this game taught me <strong>a lot</strong>. From more Godot concepts, to coding patterns, to game juice, and more. I'm very excited to release it and share my learnings.</p>
+<p>I'll be diving deeper into it in a near future post, please look forward to it!</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lets-play">Let's play!<a href="https://problem-18-dev.github.io/cheese-chasers-release#lets-play" class="hash-link" aria-label="Direct link to Let's play!" title="Direct link to Let's play!" translate="no">​</a></h3>
+<p>The game's available on itch.io, so <a href="https://problem-18.itch.io/cheese-chasers" target="_blank" rel="noopener noreferrer" class="">give it a try</a> and let me know what you think!</p>
+<p>I'd love to hear your thoughts on the game, and if you have any feedback, please let me know!</p>
+<p>Thanks for playing! <!-- -->❤️</p>
+<img src="https://problem-18-dev.github.io/img/games/cheese-chasers/gameplay_demo.gif" alt="A triangle of cheese shooting lasers, picking up a power-up and killing multiple mice" width="70%">
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="i-want-to-read-more">I want to read more!<a href="https://problem-18-dev.github.io/cheese-chasers-release#i-want-to-read-more" class="hash-link" aria-label="Direct link to I want to read more!" title="Direct link to I want to read more!" translate="no">​</a></h3>
+<p>It'd be my honor.</p>
+<ul>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/i-need-to-go-release">Release of "I need to go"</a></strong>: My third game about really needing to go!</li>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/keybricks-release">Release of "Keybricks"</a></strong>: My second game about hitting key caps!</li>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/script-button-feature">My second ever tutorial</a></strong>: A tutorial on how to enable a neat godot feature!</li>
+</ul>]]></content:encoded>
+            <category>Game-specific</category>
+            <category>Announcements</category>
+        </item>
         <item>
             <title><![CDATA[Godot Script Button Feature]]></title>
             <link>https://problem-18-dev.github.io/script-button-feature</link>
