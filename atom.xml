@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://problem-18-dev.github.io</id>
     <title>Problem 18 Blog</title>
-    <updated>2026-02-28T00:00:00.000Z</updated>
+    <updated>2026-03-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://problem-18-dev.github.io"/>
     <subtitle>Problem 18 Blog</subtitle>
     <icon>https://problem-18-dev.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Development of Cheese Chasers]]></title>
+        <id>https://problem-18-dev.github.io/cheese-chasers-development</id>
+        <link href="https://problem-18-dev.github.io/cheese-chasers-development"/>
+        <updated>2026-03-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An in-depth look at the development of Cheese Chasers. How I came up with the theme, the important concepts I learned, and what I'll take with me for the next game.]]></summary>
+        <content type="html"><![CDATA[<p>A game that took me the most time to develop, and the game that easily has taught me more than the previous games altogether. Let's go through it step by step, and I'll do my best to explain the concepts and learnings.</p>
+<p>Let's take a look!</p>
+]]></content>
+        <author>
+            <name>Problem 18 Developer</name>
+        </author>
+        <category label="Game-specific" term="Game-specific"/>
+        <category label="Learning" term="Learning"/>
+        <category label="Godot" term="Godot"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Development of Cheese Chasers]]></title>
+        <id>https://problem-18-dev.github.io/cheese-chasers-development</id>
+        <link href="https://problem-18-dev.github.io/cheese-chasers-development"/>
+        <updated>2026-03-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How I built an Asteroids clone in Godot with particles, camera shake, screen wrapping inheritance, power-ups, enemy AI, and a manager pattern. Includes GDScript code examples, a code review, and lessons learned.]]></summary>
+        <content type="html"><![CDATA[<p>A game that took me the most time to develop, and the game that easily has taught me more than the previous games altogether. Let's go through it step by step, and I'll do my best to explain the concepts and learnings.</p>
+<p>Let's take a look!</p>
+]]></content>
+        <author>
+            <name>Problem 18 Developer</name>
+        </author>
+        <category label="Game-specific" term="Game-specific"/>
+        <category label="Learning" term="Learning"/>
+        <category label="Godot" term="Godot"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cheese Chasers released!]]></title>
         <id>https://problem-18-dev.github.io/cheese-chasers-release</id>
@@ -15,7 +47,7 @@
         <summary type="html"><![CDATA[Play Cheese Chasers for free on itch.io, be a ship of cheese defending yourself from hordes of hungry mice! Game 4/10 of the Problem 18 challenge.]]></summary>
         <content type="html"><![CDATA[<p>Cheese Chasers is out!</p>
 <p>Shoot lasers, use power-ups, and defend yourself from hordes of hungry mice!</p>
-<iframe frameborder="0" src="https://itch.io/embed/4320281" width="552" height="167"><a href="https://problem-18.itch.io/cheese-chasers"><p>Cheese Chasers by Problem 18</p></a></iframe>
+<iframe class="game-widget" frameborder="0" src="https://itch.io/embed/4320281?bg_color=EBEBD3&amp;fg_color=100C08&amp;link_color=EF233C&amp;border_color=403c38"><a href="https://problem-18.itch.io/cheese-chasers"><p>Cheese Chasers by Problem 18</p></a></iframe>
 <!-- -->
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-the-game">What's the game?<a href="https://problem-18-dev.github.io/cheese-chasers-release#whats-the-game" class="hash-link" aria-label="Direct link to What's the game?" title="Direct link to What's the game?" translate="no">​</a></h3>
 <p>Cheese Chasers is an Asteroids clone. An arcade game where you control a ship and defend yourself from asteroids. My twist on it is that your ship is a triangle of cheese, the asteroids are mice, and you have power-ups like accelerated shooting, or invincibility. With every wave of mice you defeat, a bigger wave comes at you until you no longer can handle it.</p>
@@ -352,7 +384,7 @@ Some lanes stretched more than how much distance per move the player made, causi
         <summary type="html"><![CDATA[Play I need to go for free on itch.io, a Frogger-clone game where you dodge cars, bikers, and pedestrians to reach the urinal. Game 3/10 of the Problem 18 challenge.]]></summary>
         <content type="html"><![CDATA[<p>I need to go is out!</p>
 <p>Avoid cars, bikers and stay out of the pedestrians' path as you make your way to the urinal.. because you really need to go.</p>
-<iframe frameborder="0" src="https://itch.io/embed/4231951?bg_color=EBEBD3&amp;fg_color=100c08&amp;link_color=EF233C&amp;border_color=403c38" width="552" height="167"><a href="https://problem-18.itch.io/i-need-to-go"><p>I need to go (again!) by Problem 18</p></a></iframe>
+<iframe class="game-widget" frameborder="0" src="https://itch.io/embed/4231951?bg_color=EBEBD3&amp;fg_color=100c08&amp;link_color=EF233C&amp;border_color=403c38"><a href="https://problem-18.itch.io/i-need-to-go"><p>I need to go (again!) by Problem 18</p></a></iframe>
 <!-- -->
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-the-game">What's the game?<a href="https://problem-18-dev.github.io/i-need-to-go-release#whats-the-game" class="hash-link" aria-label="Direct link to What's the game?" title="Direct link to What's the game?" translate="no">​</a></h3>
 <p>It's an arcade game based on the <a href="https://en.wikipedia.org/wiki/Frogger" target="_blank" rel="noopener noreferrer" class="">classic Frogger game</a>. The player controls a frog which must avoid all kinds of obstacles, jump between them and navigate through moving trees floating on water to get to the other side. What's waiting there? A lilly pad. Five of those, actually. When the player manages to fill all 5 they win and/or proceed to the next level which is slightly more difficult.</p>
@@ -385,7 +417,7 @@ Some lanes stretched more than how much distance per move the player made, causi
         <updated>2026-01-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Play Keybricks for free on itch.io, a Breakout clone with a keyboard theme. Destroy key caps with your space bar. Game 2/10 of the Problem 18 challenge.]]></summary>
         <content type="html"><![CDATA[<p>Keybricks is live! The second game in the Problem 18 challenge! Inspired by a mechanical keyboard, keep the ball in play with your space bar and destroy all the key caps!</p>
-<iframe frameborder="0" src="https://itch.io/embed/4205512?bg_color=EBEBD3&amp;fg_color=100c08&amp;link_color=EF233C&amp;border_color=403c38" width="552" height="167"><a href="https://problem-18.itch.io/keybricks">Keybricks by Problem 18</a></iframe>
+<iframe class="game-widget" frameborder="0" src="https://itch.io/embed/4205512?bg_color=EBEBD3&amp;fg_color=100c08&amp;link_color=EF233C&amp;border_color=403c38"><a href="https://problem-18.itch.io/keybricks">Keybricks by Problem 18</a></iframe>
 <!-- -->
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="keybricks">Keybricks<a href="https://problem-18-dev.github.io/keybricks-release#keybricks" class="hash-link" aria-label="Direct link to Keybricks" title="Direct link to Keybricks" translate="no">​</a></h3>
 <p>Creating this game required a lot more out of me than just drawing a few sprites, moving them in one direction and calling it a day. It required for me to think of what I actually want this game to be, what my own twist on it would be, and most importantly, how do I even create it?</p>
@@ -477,7 +509,7 @@ Some lanes stretched more than how much distance per move the player made, causi
         <updated>2026-01-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Play Tricat for free on itch.io, a Flappy Bird clone where you guide a black cat through brooms. Game 1/10 of the Problem 18 challenge built with Godot.]]></summary>
         <content type="html"><![CDATA[<p>Tricat, the first game of the challenge is live! A Flappy Bird clone built in Godot, inspired by a beloved three-legged cat. Tricat must jump between brooms to gain score, falling into a broom will not end well!</p>
-<iframe frameborder="0" src="https://itch.io/embed/4184540?bg_color=EBEBD3&amp;fg_color=100C08&amp;link_color=EF233C&amp;border_color=403c38" width="552" height="167"><a href="https://problem-18.itch.io/tricat">Tricat by Problem 18</a></iframe>
+<iframe class="game-widget" frameborder="0" src="https://itch.io/embed/4184540?bg_color=EBEBD3&amp;fg_color=100C08&amp;link_color=EF233C&amp;border_color=403c38"><a href="https://problem-18.itch.io/tricat">Tricat by Problem 18</a></iframe>
 <!-- -->
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="first-game">First game<a href="https://problem-18-dev.github.io/tricat-release#first-game" class="hash-link" aria-label="Direct link to First game" title="Direct link to First game" translate="no">​</a></h3>
 <p><strong>Tricat</strong> is the first game of the challenge. A Flappy Bird clone, with a small twist on the theme. In this case it being a black cat that has to avoid brooms with a purple and starry background representing the night. The player has to jump using their mouse button or space to keep the the cat afloat and avoiding the brooms.</p>
