@@ -2,43 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://problem-18-dev.github.io</id>
     <title>Problem 18 Blog</title>
-    <updated>2026-03-02T00:00:00.000Z</updated>
+    <updated>2026-02-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://problem-18-dev.github.io"/>
     <subtitle>Problem 18 Blog</subtitle>
     <icon>https://problem-18-dev.github.io/img/favicon.ico</icon>
-    <entry>
-        <title type="html"><![CDATA[Development of Cheese Chasers]]></title>
-        <id>https://problem-18-dev.github.io/cheese-chasers-development</id>
-        <link href="https://problem-18-dev.github.io/cheese-chasers-development"/>
-        <updated>2026-03-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An in-depth look at the development of Cheese Chasers. How I came up with the theme, the important concepts I learned, and what I'll take with me for the next game.]]></summary>
-        <content type="html"><![CDATA[<p>A game that took me the most time to develop, and the game that easily has taught me more than the previous games altogether. Let's go through it step by step, and I'll do my best to explain the concepts and learnings.</p>
-<p>Let's take a look!</p>
-]]></content>
-        <author>
-            <name>Problem 18 Developer</name>
-        </author>
-        <category label="Game-specific" term="Game-specific"/>
-        <category label="Learning" term="Learning"/>
-        <category label="Godot" term="Godot"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Development of Cheese Chasers]]></title>
-        <id>https://problem-18-dev.github.io/cheese-chasers-development</id>
-        <link href="https://problem-18-dev.github.io/cheese-chasers-development"/>
-        <updated>2026-03-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[How I built an Asteroids clone in Godot with particles, camera shake, screen wrapping inheritance, power-ups, enemy AI, and a manager pattern. Includes GDScript code examples, a code review, and lessons learned.]]></summary>
-        <content type="html"><![CDATA[<p>A game that took me the most time to develop, and the game that easily has taught me more than the previous games altogether. Let's go through it step by step, and I'll do my best to explain the concepts and learnings.</p>
-<p>Let's take a look!</p>
-]]></content>
-        <author>
-            <name>Problem 18 Developer</name>
-        </author>
-        <category label="Game-specific" term="Game-specific"/>
-        <category label="Learning" term="Learning"/>
-        <category label="Godot" term="Godot"/>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Cheese Chasers released!]]></title>
         <id>https://problem-18-dev.github.io/cheese-chasers-release</id>

@@ -4,36 +4,10 @@
         <title>Problem 18 Blog</title>
         <link>https://problem-18-dev.github.io</link>
         <description>Problem 18 Blog</description>
-        <lastBuildDate>Mon, 02 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <item>
-            <title><![CDATA[Development of Cheese Chasers]]></title>
-            <link>https://problem-18-dev.github.io/cheese-chasers-development</link>
-            <guid>https://problem-18-dev.github.io/cheese-chasers-development</guid>
-            <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[An in-depth look at the development of Cheese Chasers. How I came up with the theme, the important concepts I learned, and what I'll take with me for the next game.]]></description>
-            <content:encoded><![CDATA[<p>A game that took me the most time to develop, and the game that easily has taught me more than the previous games altogether. Let's go through it step by step, and I'll do my best to explain the concepts and learnings.</p>
-<p>Let's take a look!</p>
-]]></content:encoded>
-            <category>Game-specific</category>
-            <category>Learning</category>
-            <category>Godot</category>
-        </item>
-        <item>
-            <title><![CDATA[Development of Cheese Chasers]]></title>
-            <link>https://problem-18-dev.github.io/cheese-chasers-development</link>
-            <guid>https://problem-18-dev.github.io/cheese-chasers-development</guid>
-            <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[How I built an Asteroids clone in Godot with particles, camera shake, screen wrapping inheritance, power-ups, enemy AI, and a manager pattern. Includes GDScript code examples, a code review, and lessons learned.]]></description>
-            <content:encoded><![CDATA[<p>A game that took me the most time to develop, and the game that easily has taught me more than the previous games altogether. Let's go through it step by step, and I'll do my best to explain the concepts and learnings.</p>
-<p>Let's take a look!</p>
-]]></content:encoded>
-            <category>Game-specific</category>
-            <category>Learning</category>
-            <category>Godot</category>
-        </item>
         <item>
             <title><![CDATA[Cheese Chasers released!]]></title>
             <link>https://problem-18-dev.github.io/cheese-chasers-release</link>
