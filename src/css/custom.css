@@ -38,3 +38,8 @@
 ul li a:hover {
   text-decoration: underline;
 }
+
+.game-widget {
+  width: clamp(208px, 552px, 100%);
+  height: 167px;
+}
