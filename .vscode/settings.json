@@ -11,7 +11,8 @@
     "randf",
     "Saultoons",
     "textureprogressbar",
-    "Tricat"
+    "Tricat",
+    "wrapf"
   ],
   "[markdown]": {
     "editor.formatOnSave": true,
