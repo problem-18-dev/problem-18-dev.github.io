@@ -4,10 +4,49 @@
         <title>Problem 18 Blog</title>
         <link>https://problem-18-dev.github.io</link>
         <description>Problem 18 Blog</description>
-        <lastBuildDate>Mon, 02 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Problem-Man released!]]></title>
+            <link>https://problem-18-dev.github.io/problem-man-release</link>
+            <guid>https://problem-18-dev.github.io/problem-man-release</guid>
+            <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Play Problem-Man for free on itch.io, a Pac-Man clone and a tribute to the previous four Problem 18 games. 4 unique mazes, each inspired by a previous game. Game 5/10 of the Problem 18 challenge.]]></description>
+            <content:encoded><![CDATA[<p>Problem-Man is out!</p>
+<p>Experience the classic Pac-Man gameplay through the Problem-verse! Four unique mazes, each based on a previous game of the Problem 18 challenge.</p>
+<iframe class="game-widget" frameborder="0" src="https://itch.io/embed/4473845?bg_color=EBEBD3&amp;fg_color=100C08&amp;link_color=EF233C&amp;border_color=bcbca4"><a href="https://problem-18.itch.io/problem-man">Problem-Man by Problem 18</a></iframe>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-the-game">What's the game?<a href="https://problem-18-dev.github.io/problem-man-release#whats-the-game" class="hash-link" aria-label="Direct link to What's the game?" title="Direct link to What's the game?" translate="no">​</a></h3>
+<p>A straight up Pac-Man clone, except the ghosts are actually smarter (I hope)! Navigate through the classic maze, or take a trip through the story by experiencing the maze as a tribute to the four previous games I made. Each maze has its own art, and some sound effects are unique to the maze as well.</p>
+<p>We're making our way through game #5, and thus mark the challenge to be halfway done! I'm very proud of myself, of what I have achieved, learned, and released so far! Every game feels like an improvement over the previous one and I cannot wait to keep learning, and find out what the next game will bring!</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-tribute-you-say">A tribute, you say?<a href="https://problem-18-dev.github.io/problem-man-release#a-tribute-you-say" class="hash-link" aria-label="Direct link to A tribute, you say?" title="Direct link to A tribute, you say?" translate="no">​</a></h4>
+<p>Yeah, from the very beginning I knew that I wanted game #5 and #10 to be a tribute to the four games before it. Pac-Man felt like a perfect fit for it, since every maze I could adjust to the theme of <a class="" href="https://problem-18-dev.github.io/tricat-release">Tricat</a>, or <a class="" href="https://problem-18-dev.github.io/keybricks-release">Keybricks</a>, ...</p>
+<p>Alongside the classic maze and sound effects, each maze has its own art, unique sound effects, and represents one of the previous games.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-four-mazes">The four mazes<a href="https://problem-18-dev.github.io/problem-man-release#the-four-mazes" class="hash-link" aria-label="Direct link to The four mazes" title="Direct link to The four mazes" translate="no">​</a></h4>
+<ul>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/tricat-release">Tricat</a></strong>: The maze colored in Tricat colors, make your way through all the treats, collect the bigger snacks and grab a collar to scare away the witches hunting for you!</li>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/keybricks-release">Keybricks</a></strong>: As haunted keycaps look for you, be the ball that hit them the same way they were hit in the original game by collecting well-known letters like "GG"! Grab a keyboard for extra points!</li>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/i-need-to-go-release">I need to go</a></strong>: This man never stopped needing to go. Find your way through the biker lane colored maze and look for the urinals to get an extra boost to your score!</li>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/cheese-chasers-release">Cheese Chasers</a></strong>: Even in this maze through space, the mice continue to seek the cheese. Evade them as you collect all cheese balls, a power-up does exactly what you think.</li>
+</ul>
+<p>As always, a development post will come later, please look forward to it!</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lets-play">Let's play!<a href="https://problem-18-dev.github.io/problem-man-release#lets-play" class="hash-link" aria-label="Direct link to Let's play!" title="Direct link to Let's play!" translate="no">​</a></h3>
+<p>The game's available on itch.io, so <a href="https://problem-18.itch.io/problem-man" target="_blank" rel="noopener noreferrer" class="">give it a try</a> and let me know what you think! I'm sure you'll find one of the unique mazes to be your favorite.</p>
+<p>Thanks for playing! <!-- -->❤️</p>
+<img src="https://problem-18-dev.github.io/img/games/problem-man/gameplay_demo.gif" alt="Problem-Man's main menu, and transition to the Tricat maze" width="70%">
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="i-want-to-read-more">I want to read more!<a href="https://problem-18-dev.github.io/problem-man-release#i-want-to-read-more" class="hash-link" aria-label="Direct link to I want to read more!" title="Direct link to I want to read more!" translate="no">​</a></h3>
+<p>It'd be my honor.</p>
+<ul>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/cheese-chasers-release">Release of "Cheese Chasers"</a></strong>: My fourth game about a cheese ship fighting mice!</li>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/cheese-chasers-development">Development of "Cheese Chasers"</a></strong>: An in-depth look at the development process!</li>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/i-need-to-go-release">Release of "I need to go"</a></strong>: My third game about really needing to go!</li>
+</ul>]]></content:encoded>
+            <category>Game-specific</category>
+            <category>Announcements</category>
+        </item>
         <item>
             <title><![CDATA[Development of Cheese Chasers]]></title>
             <link>https://problem-18-dev.github.io/cheese-chasers-development</link>
