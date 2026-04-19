@@ -27,3 +27,8 @@ personal:
   label: 'Personal'
   permalink: '/personal'
   description: 'Posts of a more personal nature'
+
+social:
+  label: 'Social'
+  permalink: '/social'
+  description: 'Posts about social media and other online presence'
