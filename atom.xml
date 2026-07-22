@@ -2,11 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://problem-18-dev.github.io</id>
     <title>Problem 18 Blog</title>
-    <updated>2026-04-19T00:00:00.000Z</updated>
+    <updated>2026-07-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://problem-18-dev.github.io"/>
     <subtitle>Problem 18 Blog</subtitle>
     <icon>https://problem-18-dev.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Snack Chads released!]]></title>
+        <id>https://problem-18-dev.github.io/snack-chads-release</id>
+        <link href="https://problem-18-dev.github.io/snack-chads-release"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Play Snack Chads for free on itch.io, a Mario clone that reflects a real-life routine of mine. Speedrun, take it slow, or just enjoy as you go get your snacks. Game 6/10 of the Problem 18 challenge.]]></summary>
+        <content type="html"><![CDATA[<p>Snack Chads is finally complete, and ready to be played!</p>
+<p>Have a go at my attempt to replicate Mario's gameplay, and a small part of my life! Four quick levels to run through!</p>
+<iframe frameborder="0" class="game-widget" src="https://itch.io/embed/4549676?bg_color=EBEBD3&amp;fg_color=100C08&amp;link_color=EF233C&amp;border_color=403c38"><a href="https://problem-18.itch.io/snack-chads">Snack Chads by Problem 18</a></iframe>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_VuTi" id="chads-with-snacks">Chads.. with snacks?<a href="https://problem-18-dev.github.io/snack-chads-release#chads-with-snacks" class="hash-link" aria-label="Direct link to Chads.. with snacks?" title="Direct link to Chads.. with snacks?" translate="no">​</a></h3>
+<p>Yep! Well.. The character isn't a chad judging by art, but definitely a chad in spirit! The game's got four levels that you can play through, speed run, enjoy slowly. Perhaps you can spend time trying to break the game.</p>
+<p><strong>I'm sure that last one will happen.</strong></p>
+<blockquote>
+<p>I fixed all the bugs!</p>
+<p>— Me before finding a bug</p>
+</blockquote>
+<p>Today marks game #6 complete after a long time, and with a long break in-between. However, I'm proud of myself to have pushed through despite that, and go all the way to complete and release it.</p>
+<p>As always, this game definitely is the best one I made so far, perhaps not that much in visible gameplay, but technically it's a lot more work than all previous games have been.</p>
+<h4 class="anchor anchorTargetStickyNavbar_VuTi" id="a-part-of-real-life">A part of real-life<a href="https://problem-18-dev.github.io/snack-chads-release#a-part-of-real-life" class="hash-link" aria-label="Direct link to A part of real-life" title="Direct link to A part of real-life" translate="no">​</a></h4>
+<p>A small one, but an important one. I like to take <em>walks</em>, whether it's just for physical activity, or with some specific goal in mind. I do a "snack walk" almost every single day, which is a decently long walk that always results in the purchase of a small snack.</p>
+<p>This quickly inspired me to theme the mario clone after these walks. Oh, and that immediately gave me the idea for the game's name.</p>
+<p>"Snack walk" + "Mario Bros" =&gt; "Snack Chads".</p>
+<p>A development post will become available at a later time, where we'll talk about the advanced player controller, and composition. Please look forward to it!</p>
+<h3 class="anchor anchorTargetStickyNavbar_VuTi" id="lets-play">Let's play!<a href="https://problem-18-dev.github.io/snack-chads-release#lets-play" class="hash-link" aria-label="Direct link to Let's play!" title="Direct link to Let's play!" translate="no">​</a></h3>
+<p>The game's available on itch.io, so <a href="https://problem-18.itch.io/snack-chads" target="_blank" rel="noopener noreferrer" class="">give it a try</a> and let me know what you think! I'm certain you'll have a nice time!</p>
+<p>Thanks for playing! <!-- -->❤️</p>
+<img src="https://problem-18-dev.github.io/img/games/snack-chads/gameplay_demo.gif" alt="Snack Chads level transition into the first level, and some gameplay" width="70%">
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_VuTi" id="i-want-to-read-more">I want to read more!<a href="https://problem-18-dev.github.io/snack-chads-release#i-want-to-read-more" class="hash-link" aria-label="Direct link to I want to read more!" title="Direct link to I want to read more!" translate="no">​</a></h3>
+<p>It'd be my honor.</p>
+<ul>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/problem-man-release">Release of "Problem-Man"</a></strong>: My fifth game that culminates multiple Problem 18 games!</li>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/problem-man-development">Development of "Problem-Man"</a></strong>: An in-depth look at the development process of Problem-Man!</li>
+<li class=""><strong><a class="" href="https://problem-18-dev.github.io/cheese-chasers-on-findnextplay">"Cheese Chasers" featured on FindNextPlay!</a></strong>: My third game about really needing to go!</li>
+</ul>]]></content>
+        <author>
+            <name>Problem 18 Developer</name>
+        </author>
+        <category label="Game-specific" term="Game-specific"/>
+        <category label="Announcements" term="Announcements"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cheese Chasers featured on FindNextPlay!]]></title>
         <id>https://problem-18-dev.github.io/cheese-chasers-on-findnextplay</id>
