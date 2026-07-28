@@ -52,7 +52,8 @@ const config: Config = {
           },
           blogSidebarTitle: 'Blogs',
           blogSidebarCount: 'ALL',
-          blogTitle: 'Problem 18 | Learning Game Development 18 days at a time',
+          // "| Problem 18" is appended automatically by the title formatter.
+          blogTitle: 'Learning Game Development, 18 Days at a Time',
           blogDescription:
             "Blog about learning game development, one game and 18 days at a time, made by Problem 18. You'll find my adventures, learnings and tutorials here!",
           // Useful options to enforce blogging best practices
@@ -63,6 +64,9 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        sitemap: {
+          ignorePatterns: ['/search'],
         },
       } satisfies Preset.Options,
     ],
@@ -86,14 +90,6 @@ const config: Config = {
         content: 'summary_large_image',
       },
       {
-        property: 'twitter:domain',
-        content: 'problem-18-dev.github.io',
-      },
-      {
-        property: 'twitter:url',
-        content: 'https://problem-18-dev.github.io',
-      },
-      {
         name: 'twitter:creator',
         content: '@Problem18Dev',
       },
@@ -101,16 +97,7 @@ const config: Config = {
         name: 'twitter:site',
         content: '@Problem18Dev',
       },
-      {
-        name: 'twitter:image',
-        content:
-          'https://problem-18-dev.github.io/img/brand/problem-18-social-card.jpg',
-      },
-      {
-        property: 'og:image',
-        content:
-          'https://problem-18-dev.github.io/img/brand/problem-18-social-card.jpg',
-      },
+      // og:image and twitter:image come from `image` below, per page.
       {
         property: 'og:type',
         content: 'website',
@@ -120,7 +107,7 @@ const config: Config = {
         content: 'fQnN3qdrQ-H2F2Pk19zzRT4gIexYsmP_YZDrtSf6tis',
       },
     ],
-    image: 'img/brand/problem-18-social-card.jpg',
+    image: 'img/problem-18-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
       defaultMode: 'dark',
