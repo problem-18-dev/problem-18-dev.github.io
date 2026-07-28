@@ -269,7 +269,70 @@ func _check_jump_on_land() -> void:
   width='75%'
 />
 
-And that's just a small portion of the air state, going into it full-depth is out of scope for this blog post, but I hope you get the point. :smile:
+**Handling air movement**
+
+While in air, the player must be able to control where they are going, whether that's to speed up, slow down, or just aim precisely to land on a block.
+
+```gdscript
+func _process_air_movement() -> void:
+  var direction := player.get_direction()
+  if is_zero_approx(direction):
+    player.velocity.x = lerpf(player.velocity.x, 0, player.air_movement_weight)
+    return
+
+  var moving := Input.is_action_pressed("left") or Input.is_action_pressed("right")
+  var running := Input.is_action_pressed("interact")
+  if moving:
+    if running:
+      var running_air_speed := player.run_speed * direction
+      player.velocity.x = lerpf(player.velocity.x, running_air_speed, player.air_movement_weight)
+      return
+
+    var walking_air_speed := player.walk_speed * direction
+    player.velocity.x = lerpf(player.velocity.x, walking_air_speed, player.air_movement_weight)
+```
+
+<img
+  src='/img/games/snack-chads/player_air_movement_demo.gif'
+  alt="Demonstration of Snack Chads' protagonist being able to control direction while in air"
+  width='75%'
+/>
+
+These lines is all it takes to have some decently smooth movement while in the air!
+
+**Handling air collisions**
+
+While in air, the player obviously will collide with possibly many things at once. Most importantly was to figure out how to make the player bump blocks, and how to make sure that they are only bumped when they are actually hit, and how do bump two of them if the player's between two blocks.
+
+For that, I used raycasts, to see whether they both detect a block, and if the player's head touched a block, while both raycasts detect a collision, we bump both.
+
+```gdscript
+func _check_block_hits(normal: Vector2) -> void:
+  var is_under_block := Vector2.DOWN.dot(normal) > 0.1
+  if not is_under_block:
+    return
+
+  for hit_ray_cast in player.hit_raycasts:
+    if not hit_ray_cast.is_colliding():
+      continue
+
+    var collider: Block = hit_ray_cast.get_collider()
+    if player.can_destroy_blocks():
+      collider.hit()
+      player.player_camera.screen_shake(PlayerCamera.SMALL_INTENSITY, \
+        PlayerCamera.SHORT_LENGTH)
+      continue
+
+    collider.bump()
+```
+
+<img
+  src='/img/games/snack-chads/player_air_collision_demo.gif'
+  alt="Demonstration of Snack Chads' protagonist being able to control direction while in air"
+  width='75%'
+/>
+
+_Note: That's not all when it comes to the player air state, but I believe this are the most important concepts, explained quickly. Going far in-depth is a little out of scope for this blog post._ :smile:
 
 ### Game juice
 
